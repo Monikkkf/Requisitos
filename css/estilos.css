@@ -1,0 +1,138 @@
+
+#contenedor{
+	background: white;
+	width: 2000px;
+	height: 1000px;
+    font-family: 'Libre Franklin', sans-serif;
+
+
+}
+#cabecera{
+    margin-top: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	height:  100px;
+	}
+
+.slider{
+	overflow: hidden;
+    margin: auto;
+    width: 1900px;
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	padding: 0;
+	width: 1900px;
+    animation: cambio 20s infinite;
+}
+
+.slider li{
+	width: 1900px;
+	list-style: none;
+}
+
+.slider img{
+	width:1900px;
+	height: 400px;
+}
+@keyframes cambio{
+    0% { margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% { margin-left: -100%}
+    45% {margin-left: -100%;}
+    
+    50% { margin-left: -200%}
+    70% {margin-left: -200%;}
+    
+    75% { margin-left: -300%}
+    100% {margin-left: -300%;}
+}
+
+#portafolio{
+    background-color: #005883;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 400px;
+	width: 1900px;
+	
+}
+#lectura{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 160px;
+	width: 900px;
+	float: left;
+	}	
+
+
+.textos li a{
+    background-color: #005883;
+    color:#fff;
+    text-decoration: none;
+    padding: 2px 2px;
+    display: block;
+}
+.textos li a:hover{
+    background-color:#b3b3b3; 
+}
+.textos> li{
+    float: left;
+    list-style: none;
+    
+}
+
+.textos li ul{
+    display: none;
+    position:absolute;
+    min-width:100px;
+     list-style: none;
+}
+
+.textos li:hover>ul{
+    display: block;
+}
+.textos li ul li{
+    position: relative;
+}
+#multimedia{
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	float: right;
+	height: 300px;
+	width: 900px;
+	}	
+#actividades{
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 160px;
+	width: 900px;
+	float: left;
+	}	
+#autores{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 50px;
+	width: 900px;
+	float: right;
+	}
+
+.pie{
+    width: 2000px;
+    height: 150px;
+    background-color: #231F20;
+    }
+#calidad{
+    width: auto;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    
+}
